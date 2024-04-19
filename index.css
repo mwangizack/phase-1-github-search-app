@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: sans-serif;
 }
 
 #github-container {
@@ -10,4 +11,33 @@
 
 ul {
   list-style: none;
+}
+
+.username {
+  font-size: 2rem;
+  font-style: bold;
+  font-family: sans-serif;
+}
+
+.profile-link {
+  font-size: 1.5rem;
+  font-style: bold;
+  font-family: sans-serif;
+}
+
+.profile-link span {
+  text-decoration: underline;
+  color: blue;
+}
+
+.profile-link span:hover {
+  cursor: pointer;
+}
+
+.image {
+  width: 20rem;
+}
+
+.image:hover {
+  cursor: pointer;
 }
